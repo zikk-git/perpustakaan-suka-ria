@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beranda | Perpustakaan Suka Ria</title>
+<meta name="description" content="Perpustakaan Suka Ria — perpustakaan komunitas gratis dengan koleksi teknologi, sejarah, fiksi, edukasi, dan resep.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <!--navigasi-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="beranda.html">Perpustakaan Suka Ria</a>
+                <input type="checkbox" id="navToggle" class="nav-check">
+
+                <label for="navToggle" class="navbar-toggler" aria-label="Buka menu navigasi">
+                    <span class="navbar-toggler-icon"></span>
+                </label>
+                <div class="collapse navbar-collapse justify-content-end" id="menuUtama">
+                    <ul class="navbar-nav text-center align-items-md-center gap-md-1">
+                        <li class="nav-item"><a class="nav-link active" href="beranda.html">Beranda</a></li>
+                        <li class="nav-item dropdown">
+                            <details>
+                                <summary class="nav-link dropdown-toggle">Kategori</summary>
+                                <ul class="dropdown-menu-custom">
+                                    <li><a class="dropdown-item" href="kategori-teknologi.html"><i class="bi bi-laptop"></i>Teknologi</a></li>
+                                    <li><a class="dropdown-item" href="novel.html"><i class="bi bi-palette"></i>Fiksi</a></li>
+                                    <li><a class="dropdown-item" href="masakan.html"><i class="bi bi-egg-fried"></i>Resep</a></li>
+                                    <li><a class="dropdown-item" href="bukuedukasi.html"><i class="bi bi-mortarboard"></i>Edukasi</a></li>
+                                    <li><a class="dropdown-item" href="bukusejarah.html"><i class="bi bi-clock-history"></i>Sejarah</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="informasi-layanan.html">Informasi &amp; Layanan</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--header-->
+        <header class="site-header text-white text-center">
+            <img src="9.jpg" alt="" class="header-bg">
+            <div class="position-absolute top-50 start-50 translate-middle w-100 px-3">
+                <h1 class="fw-bold display-4 text-shadow">Perpustakaan Suka Ria</h1>
+                <p class="mb-0 fs-5 text-shadow">Platform perpustakaan digital lengkap &amp; modern</p>
+            </div>
+        </header>
+
+        <!--hero-->
+        <section class="hero">
+            <div class="container position-relative" style="z-index:2;">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-6">
+                        <span class="badge-library my-3">Selamat datang di perpustakaan</span>
+                        <h2 class="hero-title fw-bold display-5 mb-3">Temukan dunia baru <span>lewat setiap halaman</span></h2>
+                        <p class="text-muted fs-5">
+                            Jelajahi koleksi buku fiksi dan non-fiksi yang tersedia di perpustakaan kami.
+                            Temukan bacaan yang sesuai dengan minat dan kebutuhanmu &mdash; gratis untuk semua anggota terdaftar.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mt-3">
+                            <a href="profil.html" class="btn btn-brand px-4 py-2 fw-semibold shadow-sm rounded-pill">Tentang Kami</a>
+                            <a href="informasi-layanan(1).html" class="btn btn-brand-outline px-4 py-2 fw-semibold shadow-sm rounded-pill">Pelajari layanan</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-3">
+                            <div class="col-4">
+                                <div class="card stat-card shadow-sm text-center py-4">
+                                    <div class="card-body p-2">
+                                        <i class="bi bi-book-half fs-1 mb-2" aria-hidden="true"></i>
+                                        <p class="stat-number">50+</p>
+                                        <p class="text-secondary mb-0 small fw-semibold">Koleksi buku</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card stat-card shadow-sm text-center py-4">
+                                    <div class="card-body p-2">
+                                        <i class="bi bi-people-fill fs-1 mb-2" aria-hidden="true"></i>
+                                        <p class="stat-number">100+</p>
+                                        <p class="text-secondary mb-0 small fw-semibold">Anggota aktif</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card stat-card shadow-sm text-center py-4">
+                                    <div class="card-body p-2">
+                                        <i class="bi bi-folder-fill fs-1 mb-2" aria-hidden="true"></i>
+                                        <p class="stat-number">5+</p>
+                                        <p class="text-secondary mb-0 small fw-semibold">Kategori</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--informasi singkat-->
+        <section class="py-5 bg-white">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7">
+                        <h2 class="section-title text-start mb-3">Ruang baca untuk semua kalangan</h2>
+                        <p class="text-muted">Perpustakaan Suka Ria adalah ruang baca komunitas yang terbuka untuk pelajar, mahasiswa, pekerja, hingga pencinta buku lintas usia. Kami menghimpun ribuan judul dari kategori teknologi, sejarah, fiksi, edukasi, hingga resep dapur, yang dapat dipinjam gratis oleh anggota terdaftar.</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="notice-join">
+                            <i class="bi bi-info-circle-fill"></i>
+                            <div class="flex-fill">
+                                <strong>Belum jadi anggota?</strong>
+                                <div class="text-muted small">Anda perlu mendaftar gratis terlebih dahulu sebelum dapat meminjam buku apa pun dari koleksi kami.</div>
+                            </div>
+                            <a href="peminjaman.html" class="btn btn-brand btn-sm rounded-pill text-nowrap">Daftar Gratis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--kategori buku-->
+        <section id="kategori" class="py-5 bg-white">
+            <div class="container text-center">
+                <h2 class="section-title mb-5">Kategori pilihan</h2>
+                <div class="row g-3 justify-content-center">
+                    <div class="col-6 col-md-2">
+                        <a href="kategori-teknologi (1).html" class="category-card shadow-sm">
+                        <i class="bi bi-laptop fs-1 d-block mb-3" aria-hidden="true"></i>
+                        <span class="fw-semibold d-block mb-1">Teknologi</span>
+                    </a>
+                </div>
+            
+                <div class="col-6 col-md-2">
+                    <a href="novel.html" class="category-card shadow-sm">
+                        <i class="bi bi-palette fs-1 d-block mb-3" aria-hidden="true"></i>
+                        <span class="fw-semibold d-block mb-1">Fiksi</span>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <a href="masakan.html" class="category-card shadow-sm">
+                        <i class="bi bi-egg-fried fs-1 d-block mb-3" aria-hidden="true"></i>
+                        <span class="fw-semibold d-block mb-1">masakan</span>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <a href="bukuedukasi.html" class="category-card shadow-sm">
+                        <i class="bi bi-mortarboard fs-1 d-block mb-3" aria-hidden="true"></i>
+                        <span class="fw-semibold d-block mb-1">Edukasi</span>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <a href="bukusejarah.html" class="category-card shadow-sm">
+                        <i class="bi bi-clock-history fs-1 d-block mb-3" aria-hidden="true"></i>
+                        <span class="fw-semibold d-block mb-1">Sejarah</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!--buku populer-->
+        <section id="koleksi" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Buku populer saat ini</h2>
+                    <p class="text-muted mt-3">Koleksi buku terpilih yang paling sering dipinjam pengguna, dari setiap kategori.</p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="12.jpg" alt="gambar buku" class="book-cover">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-warning text-dark mb-2 align-self-start">Teknologi</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">Teknologi Digital</h3>
+                                <p class="text-muted small mb-3">Prof. Dr. Muhammad Rusli, MT.</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="5.jpg" alt="gambar buku" class="book-cover">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-warning text-dark mb-2 align-self-start">Teknologi</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">Coding</h3>
+                                <p class="text-muted small mb-3">Zen Code Academy</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="sherlock holmes.jpg" class="book-cover" alt="Buku Fiksi 1">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-danger mb-2 align-self-start">Fiksi</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">The Case Book Sherlock Holmes</h3>
+                                <p class="text-muted small mb-3">Arthhur Conan Doyle</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="laskar pelangi.jpg" class="book-cover" alt="Buku Fiksi 2">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-danger mb-2 align-self-start">Fiksi</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">Laskar Pelangi</h3>
+                                <p class="text-muted small mb-3">Andrea Hirata</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="100 resep kue roti.jpg" class="book-cover" alt="Buku Masakan 1">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-success mb-2 align-self-start">Resep</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">100 resep kue & roti</h3>
+                                <p class="text-muted small mb-3">Lanny Soechan</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="e1.jpg.jpeg" class="book-cover" alt="Buku Edukasi 1">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-secondary mb-2 align-self-start">Edukasi</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1"> Pedagogy of the Oppressed</h3>
+                                <p class="text-muted small mb-3">Paulo Freire</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="s1.png" class="book-cover" alt="Buku Sejarah 1">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-info text-dark mb-2 align-self-start">Sejarah</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">A History of Modern Indonesia</h3>
+                                <p class="text-muted small mb-3">Adrian Vickers</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card book-card h-100 shadow-sm">
+                            <img src="hujan.jpg" class="book-cover" alt="Buku Fiksi 3">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge bg-danger text-light mb-2 align-self-start">fiksi</span>
+                                <h3 class="card-title fw-bold fs-6 mb-1">Hujan</h3>
+                                <p class="text-muted small mb-3">Tere Liye</p>
+                                <a href="#" class="btn btn-brand-outline btn-sm mt-auto w-100 fw-semibold rounded-pill">Pinjam buku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-white pt-5 pb-4 site-footer footer-color">
+            <div class="container">
+                <div class="row g-4 mb-4">
+                    <div class="col-md-4">
+                        <p class="fw-title fs-5 mb-2">Perpustakaan Suka Ria</p>
+                        <p class="small text-white-50 mb-0" style="max-width:32ch;">Perpustakaan komunitas gratis untuk siapa saja — pelajar, mahasiswa, pekerja, hingga pencinta buku lintas usia.</p>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <p class="fw-title small text-uppercase text-white-50 mb-2">Jelajahi</p>
+                        <ul class="list-unstyled small d-grid gap-2">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="informasi-layanan.html">Informasi &amp; Layanan</a></li>
+                            <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <p class="fw-title small text-uppercase text-white-50 mb-2">Kategori</p>
+                        <ul class="list-unstyled small d-grid gap-2">
+                            <li><a href="kategori-teknologi.html">Teknologi</a></li>
+                            <li><a href="kategori-fiksi.html">Fiksi</a></li>
+                            <li><a href="kategori-resep.html">Resep</a></li>
+                            <li><a href="bukuedukasi.html">Edukasi</a></li>
+                            <li><a href="bukusejarah.html">Sejarah</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="fw-title small text-uppercase text-white-50 mb-2">Kontak</p>
+                        <ul class="list-unstyled small text-white-50 d-grid gap-2">
+                            <li><i class="bi bi-geo-alt me-1"></i>Jl. Literasi No. 21, Surabaya</li>
+                            <li><i class="bi bi-telephone me-1"></i>(031) 555-0182</li>
+                            <li><i class="bi bi-envelope me-1"></i>halo@sukaria.id</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-secondary">
+                <p class="mb-0 small text-white-50 text-center">&copy; 2026 Perpustakaan Suka Ria. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </footer>
+    </body>
+</html>
